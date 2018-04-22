@@ -1,7 +1,9 @@
 # nlp-restaurant-review-sentiment 
 
--Fatah Fadlurrohman
+Kelompok FFS
 
--Rizqy Faishal
+-Fatah Fadlurrohman, 1406571842
 
--Sang Agung R. P.
+-Rizqy Faishal Tanjung, 1406622856
+
+-Sang Agung Raditya P., 1406573766
