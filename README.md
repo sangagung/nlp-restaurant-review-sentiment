@@ -2,7 +2,7 @@
 
 Kelompok FFS
 
--Fatah Fadlurrohman, 1406571842
+-Fatah Fadhlurrohman, 1406571842
 
 -Rizqy Faishal Tanjung, 1406622856
 
