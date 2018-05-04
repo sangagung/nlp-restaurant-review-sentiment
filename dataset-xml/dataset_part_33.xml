@@ -2,7 +2,7 @@
   <review rid="655">
     <text>They have a pretty great service! They even deliver my order bcs i need to guard our table haha. I always love french fries but unfortunately they always put too little spice so i need to ask for more...</text>
     <aspects>
-      <aspect category="FOOD" polarity="NEGATIVE">
+      <aspect category="FOOD" polarity="NEGATIVE"/>
       <aspect category="SERVICE" polarity="POSITIVE"/>
     </aspects>
   </review>
