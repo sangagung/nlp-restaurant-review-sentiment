@@ -3,10 +3,11 @@
 
 
 class Review(object):
-	def __init__(self, rid, text, aspects: set): 
+	def __init__(self, rid, text, aspects: set, trainer): 
 		self.rid = rid
 		self.text = text
 		self.aspects = aspects
+		self.trainer = trainer
 	
 	def __eq__(self, other): 
 		if not isinstance(other, Review):
@@ -17,7 +18,11 @@ class Review(object):
 		return 31 * hash(self.rid) +  17 * hash(self.text)
 
 	def __str__(self):
-		return '==============================================' + '\n' + self.rid + '\n' + self.text + '\n' + self.aspects.get('FOOD', '-') + '\n' + self.aspects.get('PRICE', '-') + '\n' + self.aspects.get('SERVICE', '-') + '\n' + self.aspects.get('AMBIENCE', '-') + '\n'
+		return '==============================================' + '\n' + self.rid + '  ' + self.trainer + '\n' + self.text + '\n' + self.aspects.get('FOOD', '-') + '  ' + self.aspects.get('PRICE', '-') + '  ' + self.aspects.get('SERVICE', '-') + '  ' + self.aspects.get('AMBIENCE', '-') + '\n'
+
+	def add_trainer(self, trainer):
+		self.trainer = self.trainer + trainer
+
 
 def printcsv(review):
 	return [review.rid, review.text, 
