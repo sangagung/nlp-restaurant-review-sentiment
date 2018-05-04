@@ -7,7 +7,7 @@ import review_struct
 review_map = {} 
 
 def parseDoc(path, trainer):
-    tree = ET.parse('dataset-xml/dataset_part_31.xml')
+    tree = ET.parse(path)
     corpus = tree.getroot()
 
     for review in corpus:
@@ -18,9 +18,9 @@ def parseDoc(path, trainer):
         rev = Review(review.attrib['rid'], review.find('text').text, review_asp, trainer)
         
         if review.attrib['rid'] in review_map:
-            print(review_map[review.attrib['rid']], "sama")
             rev = review_map[review.attrib['rid']]
             rev.add_trainer(trainer)
+            print(review_map[review.attrib['rid']], "sama")
             # print("sama")
         else:
             print(rev, "beda")
@@ -42,11 +42,11 @@ print(len(review_map), '3')
 #     print(review_struct.printcsv(review))
 
 
-# with open('dataset.csv', 'w', encoding='utf-8') as csvfile:
-#     fieldnames = ['rid', 'text', 'food', 'price', 'service', 'ambience']
-#     writer = csv.writer(csvfile)
-#     writer.writerow(fieldnames)
-# # for rid, review in review_map:
-# #     print(review_struct.printcsv(review))
-#     for rid, review in review_map.items():
-#         writer.writerow(review_struct.printcsv(review))
+with open('dataset.csv', 'w', encoding='utf-8') as csvfile:
+    fieldnames = ['rid', 'text', 'food', 'price', 'service', 'ambience', 'trainer']
+    writer = csv.writer(csvfile)
+    writer.writerow(fieldnames)
+# for rid, review in review_map:
+#     print(review_struct.printcsv(review))
+    for rid, review in review_map.items():
+        writer.writerow(review_struct.printcsv(review))

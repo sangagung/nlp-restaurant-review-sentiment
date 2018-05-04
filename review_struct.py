@@ -21,7 +21,7 @@ class Review(object):
 		return '==============================================' + '\n' + self.rid + '  ' + self.trainer + '\n' + self.text + '\n' + self.aspects.get('FOOD', '-') + '  ' + self.aspects.get('PRICE', '-') + '  ' + self.aspects.get('SERVICE', '-') + '  ' + self.aspects.get('AMBIENCE', '-') + '\n'
 
 	def add_trainer(self, trainer):
-		self.trainer = self.trainer + trainer
+		self.trainer = self.trainer + " " + trainer
 
 
 def printcsv(review):
@@ -29,7 +29,8 @@ def printcsv(review):
 		review.aspects.get('FOOD', '-'), 
 		review.aspects.get('PRICE', '-'), 
 		review.aspects.get('SERVICE', '-'), 
-		review.aspects.get('AMBIENCE', '-'),]
+		review.aspects.get('AMBIENCE', '-'),
+		review.trainer]
 
 
 # class Aspect(object):
