@@ -67,13 +67,7 @@ def food_pos():
          ('Potato wegess nya enak, recomended la..', 'positive'),
          ('Pilihan tepat klo mau makan steak enak', 'positive'),
          ('rasa maknyus..', 'positive'),
-         ('ehh malah jd ketagihan sama dagingnya yg empuk dan sambel mentah nya yg dasyatttt', 'positive'),
-         ('ehh malah jd ketagihan sama dagingnya yg empuk dan sambel mentah nya yg dasyatttt', 'positive'),
-         ('ehh malah jd ketagihan sama dagingnya yg empuk dan sambel mentah nya yg dasyatttt', 'positive'),
-         ('ehh malah jd ketagihan sama dagingnya yg empuk dan sambel mentah nya yg dasyatttt', 'positive'),
-         ('ehh malah jd ketagihan sama dagingnya yg empuk dan sambel mentah nya yg dasyatttt', 'positive'),
-         ('ehh malah jd ketagihan sama dagingnya yg empuk dan sambel mentah nya yg dasyatttt', 'positive'),
-         ('ehh malah jd ketagihan sama dagingnya yg empuk dan sambel mentah nya yg dasyatttt', 'positive')]
+         ('Rasanya ga ada amis2nya gt. Fresh sih. Ditambah sambal bangkok dan selada yg sangat amat yummy', 'positive')]
     return v
 
 
@@ -84,35 +78,7 @@ def food_neg():
          ('Rasanya biasa aja. Overall Tidak worth it', 'negative'),
          ('I wouldn\'t recommend their breakfast menu', 'negative'),
          ('pesen gue kue cubit tuna tapi kurang greget', 'negative'),
-         ('pesen susu rasa greentea tapi rasa green tea nya kurang terasa', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative')]
+         ('pesen susu rasa greentea tapi rasa green tea nya kurang terasa', 'negative')]
     return v
 
 
@@ -133,11 +99,7 @@ def price_pos():
          ('lumayan lg ada disc 50% juga hihihihi :D&#160;', 'positive'),
          ('Untuk harga standar buat kantong mahasiswi', 'positive'),
          ('harga pas di kantong..', 'positive'),
-         ('Harga pas dikantong..', 'positive'),
-         ('ehh malah jd ketagihan sama dagingnya yg empuk dan sambel mentah nya yg dasyatttt', 'positive'),
-         ('ehh malah jd ketagihan sama dagingnya yg empuk dan sambel mentah nya yg dasyatttt', 'positive'),
-         ('ehh malah jd ketagihan sama dagingnya yg empuk dan sambel mentah nya yg dasyatttt', 'positive'),
-         ('ehh malah jd ketagihan sama dagingnya yg empuk dan sambel mentah nya yg dasyatttt', 'positive')]
+         ('Harga pas dikantong..', 'positive')]
     return v
 
 
@@ -147,28 +109,7 @@ def price_neg():
          ('In overall this place is pricey', 'negative'),
          ('memang harga makanan disini mahal-mahal', 'negative'),
          ('Harganya mahal', 'negative'),
-         ('as most of them are overpriced for the portion and quality of the food ', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative')]
+         ('as most of them are overpriced for the portion and quality of the food ', 'negative')]
     return v
 
 
@@ -188,15 +129,7 @@ def service_pos():
          ('Recommended deh', 'positive'),
          ('Tapi walaupun selalu waiting list tp tidak butuh waktu lama sdh dapat tempat duduk', 'positive'),
          ('Pelayanan nya ramah', 'positive'),
-         ('Pelayanan cepat', 'positive'),
-         ('ehh malah jd ketagihan sama dagingnya yg empuk dan sambel mentah nya yg dasyatttt', 'positive'),
-         ('ehh malah jd ketagihan sama dagingnya yg empuk dan sambel mentah nya yg dasyatttt', 'positive'),
-         ('ehh malah jd ketagihan sama dagingnya yg empuk dan sambel mentah nya yg dasyatttt', 'positive'),
-         ('ehh malah jd ketagihan sama dagingnya yg empuk dan sambel mentah nya yg dasyatttt', 'positive'),
-         ('ehh malah jd ketagihan sama dagingnya yg empuk dan sambel mentah nya yg dasyatttt', 'positive'),
-         ('ehh malah jd ketagihan sama dagingnya yg empuk dan sambel mentah nya yg dasyatttt', 'positive'),
-         ('ehh malah jd ketagihan sama dagingnya yg empuk dan sambel mentah nya yg dasyatttt', 'positive')
-         ]
+         ('Pelayanan cepat', 'positive')]
     return v
 
 
@@ -208,22 +141,7 @@ def service_neg():
          ('Ditambah pelayananannya lama, harus diingetin dulu baru dibikin', 'negative'),
          ('Selang 1 jam baru makanan diantar, padahal hanya mie kuah', 'negative'),
          ('Too bad for the slooooow service', 'negative'),
-         ('VERY LONG service time', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative')]
+         ('VERY LONG service time', 'negative')]
     return v
 
 
@@ -265,10 +183,7 @@ def ambience_pos():
          ('Apalagi yg outdoor, sejuk', 'positive'),
          ('This place isn\'t big but very cozy for me with nice music', 'positive'),
          ('Tempatnya luas sekali', 'positive'),
-         ('Tempat nya kecil ada indoor &amp; outdoor tapi lumayan buat kumpul2 sama temen2', 'positive'),
-         ('ehh malah jd ketagihan sama dagingnya yg empuk dan sambel mentah nya yg dasyatttt', 'positive'),
-         ('ehh malah jd ketagihan sama dagingnya yg empuk dan sambel mentah nya yg dasyatttt', 'positive'),
-         ('ehh malah jd ketagihan sama dagingnya yg empuk dan sambel mentah nya yg dasyatttt', 'positive')]
+         ('Tempat nya kecil ada indoor &amp; outdoor tapi lumayan buat kumpul2 sama temen2', 'positive')]
     return v
 
 
@@ -278,20 +193,5 @@ def ambience_neg():
          ('soalnya kursinya juga dikit terus gelap', 'negative'),
          ('Tempatnya sebenarnya besar, tapi penataannya nggak terlalu rapi dan ""fit-in"", apalagi di lantai 2 nya', 'negative'),
          ('Suasananya juga berisik', 'negative'),
-         ('tapi kalau suka dengan suasana tenang, I don\'t recommend you to eat here', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative'),
-         ('Decent price (used to be)', 'negative')]
+         ('tapi kalau suka dengan suasana tenang, I don\'t recommend you to eat here', 'negative')]
     return v
