@@ -22,7 +22,9 @@ class Review(object):
 
 	def add_trainer(self, trainer):
 		self.trainer = self.trainer + " " + trainer
-
+	
+	def add_aspect(self, aspect, polarity):
+		self.aspects[aspect] = polarity
 
 def printcsv(review):
 	return [review.rid, review.text, 
@@ -31,6 +33,9 @@ def printcsv(review):
 		review.aspects.get('SERVICE', '-'), 
 		review.aspects.get('AMBIENCE', '-'),
 		review.trainer]
+
+def gettext(review):
+	return review.text
 
 
 # class Aspect(object):
