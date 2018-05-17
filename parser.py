@@ -74,7 +74,7 @@ def extract_features(document):
 
 dataset1 = 'dataset-xml/dataset_part_31_correction.xml'
 dataset3 = 'dataset-xml/dataset_part_33_correction.xml'
-datasettest = 'dataset-xml/validation_set.xml'
+datasettest = 'dataset_test.xml'
 print(len(review_map))
 parseDoc(dataset1, 'agung')
 print(len(review_map), '1')
@@ -143,14 +143,15 @@ for rid, review in test_map.items():
 
 
 
-with open('dataset-csv/test.csv', 'w', encoding='utf-8') as csvfile:
+with open('dataset-csv/test_3.csv', 'w', encoding='utf-8') as csvfile:
     fieldnames = ['rid', 'text', 'food', 'price', 'service', 'ambience', 'trainer']
     writer = csv.writer(csvfile)
     writer.writerow(fieldnames)
     for rid, review in test_map.items():
-        print(review_struct.printcsv(review))
-        for rid, review in test_map.items():
-            writer.writerow(review_struct.printcsv(review))
+        r = review_struct.printcsv(review)
+        print(r)
+        writer.writerow(r)
+            
 
 # with open('dataset-conflict.csv', 'w', encoding='utf-8') as csvfile:
 #     fieldnames = ['rid', 'text', 'food', 'price', 'service', 'ambience', 'trainer']

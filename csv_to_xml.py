@@ -3,7 +3,7 @@ import os
 import xml.etree.ElementTree as ET
 
 PATH = os.path.dirname(os.path.abspath(__file__))
-DATASET_PATH = os.path.join(PATH, "dataset-csv", "test.csv")
+DATASET_PATH = os.path.join(PATH, "dataset-csv", "test_3.csv")
 df = pd.read_csv(DATASET_PATH)
 
 xml_str = '<corpus>\n'
@@ -35,6 +35,6 @@ xml_str += '</corpus>'
 
 #tree = ET.ElementTree(ET.fromstring(xml_str))
 #mydata = ET.tostring(tree)  
-submission = open('submission.xml','w')
+submission = open('submission_3.xml','w')
 submission.write(xml_str)
 submission.close
