@@ -152,7 +152,7 @@ def food_pos():
          ('Good Food, love the chicken n veggie rice', 'positive'),
          ('You can add on anythig into this stew', 'positive'),
          ('The beer suits  my taste', 'positive'),
-         ('Love the pork belly', 'positive'))]
+         ('Love the pork belly', 'positive')]
     return v
 
 
