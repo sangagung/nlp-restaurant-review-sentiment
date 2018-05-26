@@ -84,7 +84,7 @@ def food_pos():
          ('Kepiting na padat. Seger. Empuk. Gurih. Ga berasa makan na sangking enak na', 'positive'),
          ('Capit na jg gede padat berisi. Gua pyas banget sama kepiting na', 'positive'),
          ('semuanya terasa diatas rata rata untuk nasi jeruk menurut saya rasa ayam yang lembut dan bumbu yang meresap membuat makanan ini terasa sangat nikmat.well done', 'positive'),
-         ('Taste is nice,but for me it doesn't make me wanting to go back there asap..', 'positive'),
+         ('Taste is nice,but for me it doesn\'t make me wanting to go back there asap..', 'positive'),
          ('Love the food, it comes in a huge portion...', 'positive'),
          ('dari rasa sih enak', 'positive'),
          ('Enjoy the food so much', 'positive'),
