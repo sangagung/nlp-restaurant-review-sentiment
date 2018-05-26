@@ -35,6 +35,6 @@ xml_str += '</corpus>'
 
 #tree = ET.ElementTree(ET.fromstring(xml_str))
 #mydata = ET.tostring(tree)  
-submission = open('submission_3.xml','w')
+submission = open('submission_3.xml','w', encoding='utf-8')
 submission.write(xml_str)
 submission.close

@@ -67,6 +67,22 @@ def food_pos():
          ('Potato wegess nya enak, recomended la..', 'positive'),
          ('Pilihan tepat klo mau makan steak enak', 'positive'),
          ('rasa maknyus..', 'positive'),
+         ('Rasanya ga ada amis2nya gt. Fresh sih. Ditambah sambal bangkok dan selada yg sangat amat yummy', 'positive'),
+         ('WOW surprisingly enak enak lho!! Pizzanya apalagi! Truffle-nya pas nggak over powering, crustnya enak tipis tp ga begitu tipis', 'positive'),
+         ('Spaghettinya enaaakk al dente dan seasoning garlic and pepper-nya pas', 'positive'),
+         ('Honestly, ini uenak banget, kita sampe pesen 2x dan jadinya makan cuma itu doang', 'positive'),
+         ('85% suit my taste for their menya gyutan don hehehe it really is my favorite', 'positive'),
+         ('but the taste was not really bad, i love it too', 'positive'),
+         ('great quality products with a lot of tasty treats to buy and take home, or even share with family/friends', 'positive'),
+         ('Cake quality was extremely good', 'positive'),
+         ('Rasanya ga ada amis2nya gt. Fresh sih. Ditambah sambal bangkok dan selada yg sangat amat yummy', 'positive'),
+         ('Rasanya ga ada amis2nya gt. Fresh sih. Ditambah sambal bangkok dan selada yg sangat amat yummy', 'positive'),
+         ('Rasanya ga ada amis2nya gt. Fresh sih. Ditambah sambal bangkok dan selada yg sangat amat yummy', 'positive'),
+         ('Rasanya ga ada amis2nya gt. Fresh sih. Ditambah sambal bangkok dan selada yg sangat amat yummy', 'positive'),
+         ('Rasanya ga ada amis2nya gt. Fresh sih. Ditambah sambal bangkok dan selada yg sangat amat yummy', 'positive'),
+         ('Rasanya ga ada amis2nya gt. Fresh sih. Ditambah sambal bangkok dan selada yg sangat amat yummy', 'positive'),
+         ('Rasanya ga ada amis2nya gt. Fresh sih. Ditambah sambal bangkok dan selada yg sangat amat yummy', 'positive'),
+         ('Rasanya ga ada amis2nya gt. Fresh sih. Ditambah sambal bangkok dan selada yg sangat amat yummy', 'positive'),
          ('Rasanya ga ada amis2nya gt. Fresh sih. Ditambah sambal bangkok dan selada yg sangat amat yummy', 'positive')]
     return v
 
@@ -99,6 +115,17 @@ def price_pos():
          ('lumayan lg ada disc 50% juga hihihihi :D&#160;', 'positive'),
          ('Untuk harga standar buat kantong mahasiswi', 'positive'),
          ('harga pas di kantong..', 'positive'),
+         ('Harga pas dikantong..', 'positive'),
+         ('Harga termasuk okelah untuk di lokasi daerah cikini/menteng', 'positive'),
+         ('Harga pas dikantong..', 'positive'),
+         ('Harga pas dikantong..', 'positive'),
+         ('Harga pas dikantong..', 'positive'),
+         ('Harga pas dikantong..', 'positive'),
+         ('Harga pas dikantong..', 'positive'),
+         ('Harga pas dikantong..', 'positive'),
+         ('Harga pas dikantong..', 'positive'),
+         ('Harga pas dikantong..', 'positive'),
+         ('Harga pas dikantong..', 'positive'),
          ('Harga pas dikantong..', 'positive')]
     return v
 
@@ -129,6 +156,20 @@ def service_pos():
          ('Recommended deh', 'positive'),
          ('Tapi walaupun selalu waiting list tp tidak butuh waktu lama sdh dapat tempat duduk', 'positive'),
          ('Pelayanan nya ramah', 'positive'),
+         ('Pelayanan cepat', 'positive'),
+         ('at first pelayanannya bagus cepet dan friendly', 'positive'),
+         ('along with friendly customer service', 'positive'),
+         ('Pelayanan cepat', 'positive'),
+         ('Pelayanan cepat', 'positive'),
+         ('Pelayanan cepat', 'positive'),
+         ('Pelayanan cepat', 'positive'),
+         ('Pelayanan cepat', 'positive'),
+         ('Pelayanan cepat', 'positive'),
+         ('Pelayanan cepat', 'positive'),
+         ('Pelayanan cepat', 'positive'),
+         ('Pelayanan cepat', 'positive'),
+         ('Pelayanan cepat', 'positive'),
+         ('Pelayanan cepat', 'positive'),
          ('Pelayanan cepat', 'positive')]
     return v
 
@@ -183,6 +224,18 @@ def ambience_pos():
          ('Apalagi yg outdoor, sejuk', 'positive'),
          ('This place isn\'t big but very cozy for me with nice music', 'positive'),
          ('Tempatnya luas sekali', 'positive'),
+         ('Tempat nya kecil ada indoor &amp; outdoor tapi lumayan buat kumpul2 sama temen2', 'positive'),
+         ('Tempatnya lumayan lucu ada indoor dan outdoor (smoking area)', 'positive'),
+         ('Great place, lovely ambience', 'positive'),
+         ('Tempat nya kecil ada indoor &amp; outdoor tapi lumayan buat kumpul2 sama temen2', 'positive'),
+         ('Tempat nya kecil ada indoor &amp; outdoor tapi lumayan buat kumpul2 sama temen2', 'positive'),
+         ('Tempat nya kecil ada indoor &amp; outdoor tapi lumayan buat kumpul2 sama temen2', 'positive'),
+         ('Tempat nya kecil ada indoor &amp; outdoor tapi lumayan buat kumpul2 sama temen2', 'positive'),
+         ('Tempat nya kecil ada indoor &amp; outdoor tapi lumayan buat kumpul2 sama temen2', 'positive'),
+         ('Tempat nya kecil ada indoor &amp; outdoor tapi lumayan buat kumpul2 sama temen2', 'positive'),
+         ('Tempat nya kecil ada indoor &amp; outdoor tapi lumayan buat kumpul2 sama temen2', 'positive'),
+         ('Tempat nya kecil ada indoor &amp; outdoor tapi lumayan buat kumpul2 sama temen2', 'positive'),
+         ('Tempat nya kecil ada indoor &amp; outdoor tapi lumayan buat kumpul2 sama temen2', 'positive'),
          ('Tempat nya kecil ada indoor &amp; outdoor tapi lumayan buat kumpul2 sama temen2', 'positive')]
     return v
 
